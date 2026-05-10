@@ -76,15 +76,15 @@ export default function LuxuryDubaiPortfolio() {
 
               <div className="flex flex-wrap gap-4 mt-10">
                 <a
-                  href="/Rafat_Khan_Professional_CV.pdf"
+                  href="/cv.pdf"
                   download
-                  className="px-8 py-4 rounded-full bg-gradient-to-r from-amber-500 to-yellow-400 text-black font-bold hover:scale-105 transition duration-300 shadow-[0_0_30px_rgba(255,215,0,0.4)] inline-flex items-center justify-center cursor-pointer"
+                  target="_blank"
+                  className="px-8 py-4 rounded-full bg-gradient-to-r from-amber-500 to-yellow-400 text-black font-bold"
                 >
-                  Download Luxury CV
+                  Download CV
                 </a>
-
                 <a
-                  href="mailto:rafatkhan8552@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=khanrafat8552@gmail.com"
                   className="px-8 py-4 rounded-full border border-amber-400 text-amber-300 hover:bg-amber-500/10 transition duration-300 inline-flex items-center justify-center cursor-pointer"
                 >
                   Hire Me
@@ -209,12 +209,15 @@ export default function LuxuryDubaiPortfolio() {
                 WhatsApp Now
               </a>
 
+
               <a
-                href="mailto:rafatkhan8552@gmail.com"
                 className="px-8 py-4 rounded-full border border-amber-400 text-amber-300 hover:bg-amber-500/10 transition duration-300 inline-flex items-center justify-center cursor-pointer relative z-50"
-              >
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=khanrafat8552@gmail.com"
+                target="_blank">
+
                 Email Me
               </a>
+
             </div>
           </div>
         </section>
