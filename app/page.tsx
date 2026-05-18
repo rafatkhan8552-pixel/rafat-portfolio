@@ -2,46 +2,63 @@
 
 export default function LuxuryDubaiPortfolio() {
   const skills = [
+    'CRM Management',
     'Personal Loans',
     'Credit Cards',
     'Relationship Management',
-    'Field Sales',
-    'MS Excel',
-    'MIS Reporting',
-    'KYC Handling',
     'Customer Acquisition',
+    'Retail Banking',
+    'Corporate Sales',
+    'MIS Reporting',
+    'MS Excel',
+    'KYC Handling',
+    'Field Sales',
   ]
 
-  const experience = [
-    {
-      company: 'Urban Money',
-      role: 'Financial Sales Professional',
-      duration: 'May 2026 – Present',
-      points: [
-        'Managing customer acquisition and loan sales operations.',
-        'Building long-term client relationships and portfolio growth.',
-      ],
-    },
-    {
-      company: 'Card Expertise',
-      role: 'Team Leadership – Credit Cards & Loans',
-      duration: 'Apr 2023 – Apr 2026',
-      points: [
-        'Specialized in personal loans and credit card sales.',
-        'Created MIS reports using Pivot Tables and VLOOKUP.',
-        'Consistently achieved monthly and quarterly targets.',
-      ],
-    },
-    {
-      company: 'HDFC Bank',
-      role: 'Sales Officer',
-      duration: 'Feb 2021 – Mar 2023',
-      points: [
-        'Promoted banking products and managed KYC processes.',
-        'Handled customer servicing and relationship management.',
-      ],
-    },
-  ]
+   const experience = [
+      {
+        company: 'Urban Money',
+        role: 'Financial Sales Professional',
+        duration: 'May 2026 – Present (Urban Money)',
+        points: [
+          'Managing customer acquisition and end-to-end financial sales operations including Home Loans, Personal Loans, Business Loans, LAP (Loan Against Property), and Credit Cards.',
+          'Handling relationship management, lead conversion, CRM management, portfolio growth, and customer servicing across multiple banking products.',
+          'Generating business through direct sales, field sales activities, channel partners, customer referrals, and corporate connections.',
+        ],
+      },
+      {
+        company: 'Card Expertise Pvt. Ltd.',
+        role: 'Team Leadership – Credit Cards & Loans',
+        duration: 'Apr 2023 – May 2026',
+        points: [
+          'Specialized in personal loans and credit card sales.',
+          'Created MIS reports using Pivot Tables and VLOOKUP.',
+          'Led sales teams and improved customer conversion ratios.',
+          'Consistently achieved monthly and quarterly targets.',
+        ],
+      },
+      {
+        company: 'HDFC Bank',
+        role: 'Sales Officer',
+        duration: 'Feb 2021 – Mar 2023',
+        points: [
+          'Managed customer servicing and KYC operations.',
+          'Promoted banking products and financial solutions.',
+          'Built strong client relationships and handled field sales.',
+        ],
+      },
+      {
+        company: 'Airtel',
+        role: 'Sales Executive',
+        duration: 'Feb 2016 – Jan 2021',
+        points: [
+          'Achieved monthly field sales targets with consistent performance and customer acquisition.',
+          'Acquired retail and corporate clients, expanding customer base and improving revenue growth.',
+          'Maintained long-term customer relationships ensuring repeat business and referrals.',
+          'Conducted market analysis and identified new business opportunities for sales expansion.',
+        ],
+      },
+    ]
 
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden relative font-sans">
@@ -76,7 +93,7 @@ export default function LuxuryDubaiPortfolio() {
 
               <div className="flex flex-wrap gap-4 mt-10">
                 <a
-                  href="/cv.pdf"
+                  href="/Rafat_khan_cv.pdf"
                   download
                   target="_blank"
                   className="px-8 py-4 rounded-full bg-gradient-to-r from-amber-500 to-yellow-400 text-black font-bold"
